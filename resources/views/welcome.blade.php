@@ -156,7 +156,7 @@
     @else
   <!-- Brand Logo -->
   <h1 href="index3.html" class="brand-link px-3">
-    <img src="{{ $avatar }}" alt="{{ $user->name }}" class="rounded-circle">
+    <!-- <img src="{{ $avatar }}" alt="{{ $user->name }}" class="rounded-circle"> -->
     <span class="brand-text font-weight-light">{{Auth::user()->name}}</span>
 </h1>
 <a href="{{ url('logout') }}" type="button" class="btn btn-danger m-2">logout</a>
